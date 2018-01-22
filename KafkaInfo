@@ -16,7 +16,7 @@ object KafkaInfo {
   //thin:表示连接时采用thin模式,oracle中有两种模式
   //jdbc:oracle:thin:是一种jni方式的命名
   //8523:端口
-  val urlBiBeta = "jdbc:oracle:thin:@aaa:8001/BIDEV1"
+  val urlBiBeta = "jdbc:oracle:thin:@。。。:8001/。。。"
   val propBiBeta = new Properties()
   propBiBeta.setProperty("user", "app")
   propBiBeta.setProperty("password", "app")
